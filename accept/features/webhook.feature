@@ -1,6 +1,6 @@
 Feature: webhooks
 
-  # https://github.com/spark/particle-cli/issues/282
+  # https://github.com/particle-iot/particle-cli/issues/282
   Scenario: the filename can end with uppercase JSON
     Given I use the fixture named "webhook"
     When I run particle "webhook create hook.JSON"

@@ -3,7 +3,7 @@
  * @file    commands/UpdateCommand.js
  * @author  Emily Rose <nexxy@particle.io>
  * @company Particle ( https://www.particle.io/ )
- * @source https://github.com/spark/particle-cli
+ * @source https://github.com/particle-iot/particle-cli
  * @version V1.0.0
  * @date    3-August-2015
  * @brief   Update command class module

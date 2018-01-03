@@ -3,7 +3,7 @@
  * @file    commands/BinaryCommand.js
  * @author  Wojtek Siudzinski (wojtek@particle.io)
  * @company Particle ( https://www.particle.io/ )
- * @source https://github.com/spark/particle-cli
+ * @source https://github.com/particle-iot/particle-cli
  * @version V1.0.0
  * @date    9-December-2015
  * @brief   Binary command module

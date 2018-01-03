@@ -3,7 +3,7 @@
  * @file    commands/SerialCommand.js
  * @author  David Middlecamp (david@particle.io)
  * @company Particle ( https://www.particle.io/ )
- * @source  https://github.com/spark/particle-cli
+ * @source  https://github.com/particle-iot/particle-cli
  * @version V1.0.0
  * @date    14-February-2014
  * @brief   Serial commands module
@@ -104,7 +104,7 @@ SerialCommand.prototype = extend(BaseCommand.prototype, {
 				// manufacturer value
 				// Mac - Spark devices
 				// Devices on old driver - Spark Core, Photon
-				// Devices on new driver - Particle IO (https://github.com/spark/firmware/pull/447)
+				// Devices on new driver - Particle IO (https://github.com/particle-iot/firmware/pull/447)
 				// Windows only contains the pnpId field
 
 				var device;

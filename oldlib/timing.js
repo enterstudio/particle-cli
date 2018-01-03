@@ -3,7 +3,7 @@
  * @file    lib/timing.js
  * @author  David Middlecamp (david@particle.io)
  * @company Particle ( https://www.particle.io/ )
- * @source https://github.com/spark/particle-cli
+ * @source https://github.com/particle-iot/particle-cli
  * @version V1.0.0
  * @date    14-February-2014
  * @brief   Timing support module

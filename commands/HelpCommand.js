@@ -3,7 +3,7 @@
  * @file    commands/HelpCommand.js
  * @author  David Middlecamp (david@particle.io)
  * @company Particle ( https://www.particle.io/ )
- * @source https://github.com/spark/particle-cli
+ * @source https://github.com/particle-iot/particle-cli
  * @version V1.0.0
  * @date    14-February-2014
  * @brief   CLI Help module
@@ -213,7 +213,7 @@ HelpCommand.prototype = extend(BaseCommand.prototype, {
 			'',
 			'Welcome to the Particle Command line utility!',
 			'Version ' + package_json.version,
-			'https://github.com/spark/particle-cli',
+			'https://github.com/particle-iot/particle-cli',
 			''
 		];
 

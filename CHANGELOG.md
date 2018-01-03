@@ -10,7 +10,7 @@
 
 ## 1.26.1 - 29 November 2017
 
-* [#392](https://github.com/spark/particle-cli/pull/392) Migrate from serialport v4 to v6
+* [#392](https://github.com/particle-iot/particle-cli/pull/392) Migrate from serialport v4 to v6
 
 ## 1.25.0 - 7 November 2017
 
@@ -18,15 +18,15 @@
 
 ## 1.24.1 - 12 September 2017
 
-- [#386](https://github.com/spark/particle-cli/issues/386) Increase Device Doctor timeout for clearing EEPROM
+- [#386](https://github.com/particle-iot/particle-cli/issues/386) Increase Device Doctor timeout for clearing EEPROM
 
 ## 1.24.0 - 29 August 2017
 
-- [#379](https://github.com/spark/particle-cli/pull/379) Add `particle device doctor`
+- [#379](https://github.com/particle-iot/particle-cli/pull/379) Add `particle device doctor`
 
 ## 1.23.1 - 6 July 2017
 
-- [#375](https://github.com/spark/particle-cli/issues/375) Fix for `particle setup wifi`.
+- [#375](https://github.com/particle-iot/particle-cli/issues/375) Fix for `particle setup wifi`.
 
 ## 1.23.0 - 30 June 2017
 
@@ -40,8 +40,8 @@
 
 ## Features
 
-* [#353](https://github.com/spark/particle-cli/pull/353) Wi-Fi switching on Windows
-* [#351](https://github.com/spark/particle-cli/pull/351) Library publish without a name
+* [#353](https://github.com/particle-iot/particle-cli/pull/353) Wi-Fi switching on Windows
+* [#351](https://github.com/particle-iot/particle-cli/pull/351) Library publish without a name
 * White list files when uploading library to avoid publishing unnecessary files
 
 ## 1.20.1 - 1 March 2017
@@ -56,25 +56,25 @@
 
 ## Features
 
- * [#338](https://github.com/spark/particle-cli/pull/338) - `particle keys protocol` displays the currently configured protocol for the connected device
- * [#205](https://github.com/spark/particle-cli/pull/205) - `webhook delete all` command. Thanks @kennethlimcp!
- * [#240](https://github.com/spark/particle-cli/pull/240) - `particle serial monitor --follow' reconnects to the serial port when the device resets. Thanks @derekmpeterson!
- * [#225](https://github.com/spark/particle-cli/pull/225) - ability to specify a .json file to skip the wifi prompts. Thanks @markterrill!
+ * [#338](https://github.com/particle-iot/particle-cli/pull/338) - `particle keys protocol` displays the currently configured protocol for the connected device
+ * [#205](https://github.com/particle-iot/particle-cli/pull/205) - `webhook delete all` command. Thanks @kennethlimcp!
+ * [#240](https://github.com/particle-iot/particle-cli/pull/240) - `particle serial monitor --follow' reconnects to the serial port when the device resets. Thanks @derekmpeterson!
+ * [#225](https://github.com/particle-iot/particle-cli/pull/225) - ability to specify a .json file to skip the wifi prompts. Thanks @markterrill!
  * `--no-update-check` to skip checks for updated versions
  
 ## Fixes
 
- * [#326](https://github.com/spark/particle-cli/issues/326) - unhandled rejection in `help`
- * [#235](https://github.com/spark/particle-cli/issues/235) - Unhandled error in `particle setup`
- * [#331](https://github.com/spark/particle-cli/issues/331) - Flashing a known app causes exception
- * [#328](https://github.com/spark/particle-cli/issues/328) - ParticleCLISetup for Windows broken due to OpenSSL download problem
- * [#326](https://github.com/spark/particle-cli/issues/326) - Unhandled rejection in help
- * [#321](https://github.com/spark/particle-cli/issues/321) - keys doctor (device id) is case sensitive
- * [#292](https://github.com/spark/particle-cli/issues/292) - this -> self
- * [#280](https://github.com/spark/particle-cli/issues/280) - Incorrect key pulled for Electron using TCP
- * [#279](https://github.com/spark/particle-cli/issues/279) - Server key address output incorrect for Electron using TCP
- * [#231](https://github.com/spark/particle-cli/issues/231) -  max retry for wifi scan error 
- * [#299](https://github.com/spark/particle-cli/pull/299) - update glob dependency to avoid warning about minimatch vulnerability. Thanks @snyk-bot.
+ * [#326](https://github.com/particle-iot/particle-cli/issues/326) - unhandled rejection in `help`
+ * [#235](https://github.com/particle-iot/particle-cli/issues/235) - Unhandled error in `particle setup`
+ * [#331](https://github.com/particle-iot/particle-cli/issues/331) - Flashing a known app causes exception
+ * [#328](https://github.com/particle-iot/particle-cli/issues/328) - ParticleCLISetup for Windows broken due to OpenSSL download problem
+ * [#326](https://github.com/particle-iot/particle-cli/issues/326) - Unhandled rejection in help
+ * [#321](https://github.com/particle-iot/particle-cli/issues/321) - keys doctor (device id) is case sensitive
+ * [#292](https://github.com/particle-iot/particle-cli/issues/292) - this -> self
+ * [#280](https://github.com/particle-iot/particle-cli/issues/280) - Incorrect key pulled for Electron using TCP
+ * [#279](https://github.com/particle-iot/particle-cli/issues/279) - Server key address output incorrect for Electron using TCP
+ * [#231](https://github.com/particle-iot/particle-cli/issues/231) -  max retry for wifi scan error 
+ * [#299](https://github.com/particle-iot/particle-cli/pull/299) - update glob dependency to avoid warning about minimatch vulnerability. Thanks @snyk-bot.
  
 
 #r 1.19.2 - 26 January 2017
@@ -145,30 +145,30 @@
 
 ### Fixes
 
-* Fix incorrect platform id error when doing a DFU flash for Core ([#232](https://github.com/spark/particle-cli/issues/232))
-* Able to OTA flash binary files again ([#251](https://github.com/spark/particle-cli/issues/251))
+* Fix incorrect platform id error when doing a DFU flash for Core ([#232](https://github.com/particle-iot/particle-cli/issues/232))
+* Able to OTA flash binary files again ([#251](https://github.com/particle-iot/particle-cli/issues/251))
 
 ## 1.13.0 - 25 May 2016
 
 ### New Features
 
-* Photon WiFi setup on Linux. ([#209](https://github.com/spark/particle-cli/pr/209))
-* Compile code in sub-directories ([#248](https://github.com/spark/particle-cli/pr/248))
+* Photon WiFi setup on Linux. ([#209](https://github.com/particle-iot/particle-cli/pr/209))
+* Compile code in sub-directories ([#248](https://github.com/particle-iot/particle-cli/pr/248))
 
 ### Updates
 
-* Serial port package updated to version 3.1.1 for compatibility with Node.js v6. Thanks @nfriedly! ([#244](https://github.com/spark/particle-cli/pr/244))
+* Serial port package updated to version 3.1.1 for compatibility with Node.js v6. Thanks @nfriedly! ([#244](https://github.com/particle-iot/particle-cli/pr/244))
 
 ### Fixes
 
-* Better error message when renaming devices. Thanks @derekmpeterson ([#238](https://github.com/spark/particle-cli/pr/238))
-* Remove debug output from `particle keys send`. Thanks @derekmpeterson! ([#239](https://github.com/spark/particle-cli/pr/239))
+* Better error message when renaming devices. Thanks @derekmpeterson ([#238](https://github.com/particle-iot/particle-cli/pr/238))
+* Remove debug output from `particle keys send`. Thanks @derekmpeterson! ([#239](https://github.com/particle-iot/particle-cli/pr/239))
 
 ## 1.12.0 - 21 Apr 2016
 
 ### New Features
 
-* Add `udp listen` command. ([#220](https://github.com/spark/particle-cli/issues/220))
+* Add `udp listen` command. ([#220](https://github.com/particle-iot/particle-cli/issues/220))
 
 ### Updates
 
@@ -178,8 +178,8 @@
 
 ### Fixes
 
-* Better DFU util error handling. ([#206](https://github.com/spark/particle-cli/issues/206))
-* Fix usage of `Buffer.fill` on older versions of node. ([#224](https://github.com/spark/particle-cli/issues/224))
+* Better DFU util error handling. ([#206](https://github.com/particle-iot/particle-cli/issues/206))
+* Fix usage of `Buffer.fill` on older versions of node. ([#224](https://github.com/particle-iot/particle-cli/issues/224))
 
 ## 1.11.0 - 10 Feb 2016
 
@@ -189,26 +189,26 @@
 
 ### Fixes
 
-* Handle invalid token for `subscribe` commands. ([#207](https://github.com/spark/particle-cli/issues/207))
-* Lowercase device id output during `setup`. ([#208](https://github.com/spark/particle-cli/issues/208))
-* Increase specific error to ignore during `update`. ([#206](https://github.com/spark/particle-cli/issues/206))
+* Handle invalid token for `subscribe` commands. ([#207](https://github.com/particle-iot/particle-cli/issues/207))
+* Lowercase device id output during `setup`. ([#208](https://github.com/particle-iot/particle-cli/issues/208))
+* Increase specific error to ignore during `update`. ([#206](https://github.com/particle-iot/particle-cli/issues/206))
 
 ## 1.10.0 - 27 Jan 2016
 
 ### New Features
 
-* Add `serial flash` command and `flash --serial` mode to flash firmware over serial using the YMODEM protocol. ([#200](https://github.com/spark/particle-cli/pull/200))
-* Add compile version targeting using `--target` argument. `compile` and `flash` both support this argument, when compiling via the cloud. ([#183](https://github.com/spark/particle-cli/issues/183))
-* Add support for `proxyUrl` settings to be used when communicating with the Particle Cloud. ([#108](https://github.com/spark/particle-cli/issues/108))
-* Prompt to request a transfer, if needed, when claiming a device. ([#114](https://github.com/spark/particle-cli/issues/114))
+* Add `serial flash` command and `flash --serial` mode to flash firmware over serial using the YMODEM protocol. ([#200](https://github.com/particle-iot/particle-cli/pull/200))
+* Add compile version targeting using `--target` argument. `compile` and `flash` both support this argument, when compiling via the cloud. ([#183](https://github.com/particle-iot/particle-cli/issues/183))
+* Add support for `proxyUrl` settings to be used when communicating with the Particle Cloud. ([#108](https://github.com/particle-iot/particle-cli/issues/108))
+* Prompt to request a transfer, if needed, when claiming a device. ([#114](https://github.com/particle-iot/particle-cli/issues/114))
 * Change to `0.4.9` update binaries used by the `particle update` command for Photon and P1.
 
 ### Fixes
 
-* Fix serial device detection on Linux. Thanks [@monkbroc](https://github.com/monkbroc)! ([#190](https://github.com/spark/particle-cli/issues/190))
+* Fix serial device detection on Linux. Thanks [@monkbroc](https://github.com/monkbroc)! ([#190](https://github.com/particle-iot/particle-cli/issues/190))
 * Fix `help` command output that was missing information in some cases.
-* Fix timeout error during `setup wifi` on Cores. ([#144](https://github.com/spark/particle-cli/issues/144))
-* Standardize Wi-Fi question order. ([#19](https://github.com/spark/particle-cli/issues/19))
+* Fix timeout error during `setup wifi` on Cores. ([#144](https://github.com/particle-iot/particle-cli/issues/144))
+* Standardize Wi-Fi question order. ([#19](https://github.com/particle-iot/particle-cli/issues/19))
 * Fix `list` if no devices are found.
 * Generate keys with `keys new` if no DFU device found but `--protocol` specified.
 * Make binary downloads after `compile` more reliable.
@@ -223,7 +223,7 @@
 
 ### Fixes
 
-* Fix `node-wifiscanner2` not reporting any SSID results on non-`en` locales in Windows. Thanks [@ScruffR](https://github.com/ScruffR)! ([#118](https://github.com/spark/particle-cli/issues/118))
+* Fix `node-wifiscanner2` not reporting any SSID results on non-`en` locales in Windows. Thanks [@ScruffR](https://github.com/ScruffR)! ([#118](https://github.com/particle-iot/particle-cli/issues/118))
 
 ## 1.9.1 - 15 Jan 2016
 
@@ -240,36 +240,36 @@
 * `keys address` command to read protocol, host, and port configured on a device for the cloud.
 * `keys protocol` command to switch cloud transport protocol between `tcp` and `udp` for devices that support it.
 * `binary inspect` command to parse a firmware binary and output module information.
-* `serial inspect` command to read module information from the device, parse, and display it. ([#76](https://github.com/spark/particle-cli/issues/76))
-* `list` output can now be filtered using `online`, `offline`, device type, or device id/name. ([#96](https://github.com/spark/particle-cli/issues/96))
-* Firmware binaries are now parsed and sent to the correct device address. This allows you to flash system parts with `flash --usb` now. Incorrect usage is prevented, but can be overridden with `--force`. ([#159](https://github.com/spark/particle-cli/issues/159))
-* Check for updates - particle-cli now checks to see if you have the latest version from npm, at most once a day, and outputs a message if not.([#138](https://github.com/spark/particle-cli/issues/138))
-* Cloud public keys are included and can be flashed by invoking `keys server` with no arguments. ([#70](https://github.com/spark/particle-cli/issues/70))
+* `serial inspect` command to read module information from the device, parse, and display it. ([#76](https://github.com/particle-iot/particle-cli/issues/76))
+* `list` output can now be filtered using `online`, `offline`, device type, or device id/name. ([#96](https://github.com/particle-iot/particle-cli/issues/96))
+* Firmware binaries are now parsed and sent to the correct device address. This allows you to flash system parts with `flash --usb` now. Incorrect usage is prevented, but can be overridden with `--force`. ([#159](https://github.com/particle-iot/particle-cli/issues/159))
+* Check for updates - particle-cli now checks to see if you have the latest version from npm, at most once a day, and outputs a message if not.([#138](https://github.com/particle-iot/particle-cli/issues/138))
+* Cloud public keys are included and can be flashed by invoking `keys server` with no arguments. ([#70](https://github.com/particle-iot/particle-cli/issues/70))
 * Support across the board for ECC keys used with the UDP cloud protocol on the Electron. Most `keys` commands now support `--protocol udp` and `--protocol tcp`, but will default to what is appropriate for the device.
 
 ### Enhancements
 
-* Add system firmware version to `identify` command. ([#95](https://github.com/spark/particle-cli/issues/95))
-* Improve bad token handling. ([#193](https://github.com/spark/particle-cli/issues/193))
-* Enable auto-detection of variable name versus device id during `variable get` and `variable monitor`. ([#187](https://github.com/spark/particle-cli/issues/187))
-* Use device attributes to determine platform for flashing apps. ([#151](https://github.com/spark/particle-cli/issues/151))
-* Output detected Wi-Fi security type. ([#126](https://github.com/spark/particle-cli/issues/126))
-* Add option for manual entry if no Wi-Fi networks are detected. ([#121](https://github.com/spark/particle-cli/issues/121))
-* Add `webhook` documentation to README. ([#29](https://github.com/spark/particle-cli/issues/29))
-* Add support for `--product_id` to `keys send` command. ([#155](https://github.com/spark/particle-cli/issues/155))
+* Add system firmware version to `identify` command. ([#95](https://github.com/particle-iot/particle-cli/issues/95))
+* Improve bad token handling. ([#193](https://github.com/particle-iot/particle-cli/issues/193))
+* Enable auto-detection of variable name versus device id during `variable get` and `variable monitor`. ([#187](https://github.com/particle-iot/particle-cli/issues/187))
+* Use device attributes to determine platform for flashing apps. ([#151](https://github.com/particle-iot/particle-cli/issues/151))
+* Output detected Wi-Fi security type. ([#126](https://github.com/particle-iot/particle-cli/issues/126))
+* Add option for manual entry if no Wi-Fi networks are detected. ([#121](https://github.com/particle-iot/particle-cli/issues/121))
+* Add `webhook` documentation to README. ([#29](https://github.com/particle-iot/particle-cli/issues/29))
+* Add support for `--product_id` to `keys send` command. ([#155](https://github.com/particle-iot/particle-cli/issues/155))
 * Improve API error handling.
-* Improve device claiming output. ([#152](https://github.com/spark/particle-cli/issues/152))
+* Improve device claiming output. ([#152](https://github.com/particle-iot/particle-cli/issues/152))
 
 ### Fixes
 
-* Fix URL for DFU install instructions. ([#191](https://github.com/spark/particle-cli/issues/191))
-* Check arguments for `udp send`, `token revoke`. ([#185](https://github.com/spark/particle-cli/issues/185), [#180](https://github.com/spark/particle-cli/issues/180))
-* Backspace will no longer erase console output. ([#20](https://github.com/spark/particle-cli/issues/20))
-* Handle errors from `softap-setup-js` during `setup`. ([#154](https://github.com/spark/particle-cli/issues/154))
-* Filter Photon SSIDs from available list during `serial wifi`. ([#135](https://github.com/spark/particle-cli/issues/135))
-* Filter directories from list of files to compile during `compile`. ([#177](https://github.com/spark/particle-cli/issues/177))
-* Remove documentation for invalid `flash` argument combinations. ([#115](https://github.com/spark/particle-cli/issues/115))
-* Show error when trying to flash a directory over USB. ([#142](https://github.com/spark/particle-cli/issues/142))
+* Fix URL for DFU install instructions. ([#191](https://github.com/particle-iot/particle-cli/issues/191))
+* Check arguments for `udp send`, `token revoke`. ([#185](https://github.com/particle-iot/particle-cli/issues/185), [#180](https://github.com/particle-iot/particle-cli/issues/180))
+* Backspace will no longer erase console output. ([#20](https://github.com/particle-iot/particle-cli/issues/20))
+* Handle errors from `softap-setup-js` during `setup`. ([#154](https://github.com/particle-iot/particle-cli/issues/154))
+* Filter Photon SSIDs from available list during `serial wifi`. ([#135](https://github.com/particle-iot/particle-cli/issues/135))
+* Filter directories from list of files to compile during `compile`. ([#177](https://github.com/particle-iot/particle-cli/issues/177))
+* Remove documentation for invalid `flash` argument combinations. ([#115](https://github.com/particle-iot/particle-cli/issues/115))
+* Show error when trying to flash a directory over USB. ([#142](https://github.com/particle-iot/particle-cli/issues/142))
 
 ### Updates
 
@@ -666,7 +666,7 @@
 
 # Notes
 
-* Please feel free to submit issues, pull requests, comments, suggestions, and more at the repository https://github.com/spark/particle-cli
+* Please feel free to submit issues, pull requests, comments, suggestions, and more at the repository https://github.com/particle-iot/particle-cli
 * You can find documentation on Particle here: http://docs.particle.io/
 * You can post and find answers on the forums here: http://community.particle.io/
 * Or you can find us on IRC at freenode #particle
